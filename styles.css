@@ -1,0 +1,150 @@
+body{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, .section-1, footer{
+    background-color: #1F2937;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+footer{
+    padding: 56px 20vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20vw;
+}
+
+#header-logo{
+    height: 56px;
+    width: auto;
+    border-radius: 50px;
+}
+
+
+header .nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+
+.nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-1{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    align-items: center;
+    
+}
+
+.section-1 img{
+    height: 17vw;
+    width: 40vw;
+    border-radius: 16px;
+}
+
+#hero-text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+#hero-desc{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px 36px;
+    border-style: none;
+}
+
+
+#info-heading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    gap: 16px;
+}
+
+.info-card{
+    text-align: center;
+}
+
+.info-card img{
+    height: 150px;
+    border-radius: 25px;
+}
+
+.section-3{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+h3{
+    text-align: right;
+}
+
+
+.call-div{
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    padding: 36px 46px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-div div > *{
+    margin: 0px;
+    color: white;
+}
+
+#call-para{
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+
+.call-div button{
+    border-style: none;
+    border: solid white;
+    font-size: 15px;
+    padding: 8px 25px;   
+}
